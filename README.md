@@ -21,7 +21,7 @@ This can be accomplished with a boot script. Flow this guide: [UDM / UDMPro Boot
 ## Installation
 
 ```shell
-curl -sO https://raw.githubusercontent.com/fire1ce/UDM-Better-Fan-Speeds/main/install.sh | sh
+curl -s https://raw.githubusercontent.com/fire1ce/UDM-Better-Fan-Speeds/main/install.sh | sh
 ```
 
 ## Configuration
