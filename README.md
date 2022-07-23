@@ -26,6 +26,12 @@ curl -s https://raw.githubusercontent.com/fire1ce/UDM-Better-Fan-Speeds/main/ins
 
 ## Configuration
 
+You can edit the fan-speed settings at
+
+```shell
+/mnt/data/on_boot.d/11-udm-better-fan-speed.sh
+```
+
 ## Credit
 
 Based on [renedis/ubnt-auto-fan-speed][renedis-ubnt-auto-fan-speed-github-url] by [ReneDIS][renedis-github-url]. Thanks
