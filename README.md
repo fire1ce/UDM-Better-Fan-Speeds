@@ -21,17 +21,10 @@ This can be accomplished with a boot script. Flow this guide: [UDM / UDMPro Boot
 ## Installation
 
 ```shell
-
+curl https://raw.githubusercontent.com/fire1ce/UDM-Better-Fan-Speeds/main/install.sh | sh
 ```
 
-## Installation
-
-- Copy [`on_boot.d/11-ubnt-auto-fan-speed.sh`](https://github.com/renedis/ubnt-auto-fan-speed/raw/main/on_boot.d/11-ubnt-auto-fan-speed.sh) to your UDM (Pro) in `/mnt/data/on_boot.d`
-- `chmod +x /mnt/data/on_boot.d/11-ubnt-auto-fan-speed.sh`
-- Adjust the settings if you want (or use mine)
-- Run the script: `sh /mnt/data/on_boot.d/11-ubnt-auto-fan-speed.sh`
-
-It will survive a reboot thanks to @boostchicken 's bootscript. The OLED screen does show correct percentage and RPM. But it does not respond to changes anymore (the "slide" trick).
+## Configuration
 
 ## Credit
 
