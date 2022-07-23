@@ -16,7 +16,7 @@ If you apply inappropriate settings with this script, you will possibly (soft- o
 ## Requirements
 
 Persistence on Reboot is required.  
-This can be accomplished with a boot script. Flow this guide: [UDM / UDMPro Boot Script](https://github.com/unifi-utilities/unifios-utilities/tree/main/on-boot-script)
+This can be accomplished with a boot script. Flow this guide: [UDM Boot Script](https://github.com/unifi-utilities/unifios-utilities/tree/main/on-boot-script)
 
 ## Installation
 
