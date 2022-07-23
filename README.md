@@ -1,12 +1,12 @@
 # UDM-Better-Fan-Speeds
 
-## What it does
+## What It Does
 
 It stops the build in service that monitors the thermal values, fan speed and connection of a HDD/SSD. After that it sets the thermal/fan chip (adt7475) to automatic mode. Once that is done it changes the thermal and fan threshold values specified in the script. If you like, you can change the values to your own preferences.
 
 ## Compatibility
 
-- Tested on UDM PRO
+- Tested on [UDM PRO][amz-udm-pro-url]
 
 ## WARNING
 
@@ -40,5 +40,6 @@ Based on [renedis/ubnt-auto-fan-speed][renedis-ubnt-auto-fan-speed-github-url] b
 
 [renedis-ubnt-auto-fan-speed-github-url]: https://github.com/renedis/ubnt-auto-fan-speed 'ubnt-auto-fan-speed renedis github'
 [renedis-github-url]: https://github.com/renedis 'ReneDIS github'
+[amz-udm-pro-url]: https://amzn.to/3J4fezk 'Amazon Unifi UDM Pro'
 
 <!-- --- -->
