@@ -1,5 +1,11 @@
 # UDM-Better-Fan-Speeds
 
+## Repository Deprecation Notice
+
+**:warning: Repository Deprecation Notice: This project is now deprecated and archived due to the release of UniFi's firmware v2.x and v3.x for Dream Machnines, which natively fix the fan speed issues.**
+
+This repository only works with **firmware 1.x. UDM-PRO** Please consider upgrading your firmware for improved functionality.
+
 ## What It Does
 
 It stops the build in service that monitors the thermal values, fan speed and connection of a HDD/SSD. After that it sets the thermal/fan chip (adt7475) to automatic mode. Once that is done it changes the thermal and fan threshold values specified in the script. If you like, you can change the values to your own preferences.
